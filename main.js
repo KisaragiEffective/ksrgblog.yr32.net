@@ -1,5 +1,5 @@
 (function() {
-	const TIPS = [
+	const MOTD = [
 		'ティーダの……やっぱなんでもない…ｗｗ',
 		'授業中に出したら終わるのは学生生活どころではないよな…🏫💩🩲',
 		'らぎ虐のｷﾞｬｸって、虐待のｷﾞｬｸだったんだ！',
@@ -187,7 +187,7 @@
 
 	const loadTips = () => {
 		document.getElementById('tips').value =
-			TIPS[Math.floor(Math.random() * TIPS.length)];
+			MOTD[Math.floor(Math.random() * MOTD.length)];
 	};
 
 	const documentReady = new Promise(resolve => {
